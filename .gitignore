@@ -29,3 +29,11 @@ JuliaLocalPreferences.toml
 
 *.DS_Store
 working/
+
+# Python virtual environments (PsiQDK notebooks in 10.PsiQDK use a local 3.12 venv)
+.venv/
+__pycache__/
+*.pyc
+
+# Live Tsim hand-off (produced by the 9.tsim effort; the .example.json template IS committed)
+10.PsiQDK/tsim_results.json
