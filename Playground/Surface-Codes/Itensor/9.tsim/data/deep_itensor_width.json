@@ -1,0 +1,42 @@
+{
+  "engine": "itensor_mps",
+  "d": 3,
+  "note": "clean warm points; Q=8 omitted (one-time compile/memory confound)",
+  "width": [
+    {
+      "Q": 2,
+      "err": 1.0291589632485217e-14,
+      "secs": 4.282022958,
+      "chi": 32,
+      "sites": 51,
+      "nT": 2,
+      "cap": 0
+    },
+    {
+      "Q": 4,
+      "err": 2.6523064849255652e-14,
+      "secs": 9.058716417,
+      "chi": 64,
+      "sites": 85,
+      "nT": 2,
+      "cap": 0
+    },
+    {
+      "Q": 6,
+      "err": 1.5420437277744053e-14,
+      "secs": 12.797154208,
+      "chi": 128,
+      "sites": 119,
+      "nT": 2,
+      "cap": 0
+    },
+    {
+      "Q": 10,
+      "sites": 187,
+      "chi": 512,
+      "cap": 0,
+      "err": 7.7e-14,
+      "secs": 125.21
+    }
+  ]
+}
